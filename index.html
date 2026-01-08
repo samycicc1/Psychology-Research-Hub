@@ -11,16 +11,17 @@
         .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
         .box { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
         .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-        .card { background: white; padding: 15px; border-radius: 8px; border: 1px solid #ddd; }
+        .card { background: white; padding: 15px; border-radius: 8px; border: 1px solid #ddd; display: flex; flex-direction: column; justify-content: space-between; }
         .btn { display: block; text-align: center; background: var(--a); color: white; text-decoration: none; padding: 10px; border-radius: 5px; margin-top: 10px; }
         .badge { background: #e3f2fd; color: #0d47a1; padding: 2px 8px; border-radius: 10px; font-weight: bold; }
+        h3 { margin-top: 0; font-size: 1.1rem; color: var(--p); }
     </style>
 </head>
 <body>
 
 <header>
     <h1>Psychology Research Hub</h1>
-    <p>Ricerca Articoli Scientifici</p>
+    <p>Ricerca Articoli Scientifici e Riviste Internazionali</p>
 </header>
 
 <div class="container">
@@ -30,84 +31,14 @@
         <div class="gcse-search"></div>
     </div>
 
-    <h2>Riviste Selezionate</h2>
+    <h2>Riviste Selezionate (Top 15)</h2>
     <div class="grid">
-        <div class="card">
-            <h3>Annual Review of Psychology</h3>
-            <p>IF: <span class="badge">29.4</span></p>
-            <a href="https://www.annualreviews.org/journal/psych" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Nature Reviews Psychology</h3>
-            <p>IF: <span class="badge">21.8</span></p>
-            <a href="https://www.nature.com/nrpsychol/" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Psychological Bulletin</h3>
-            <p>IF: <span class="badge">19.8</span></p>
-            <a href="https://www.apa.org/pubs/journals/bul" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Trends in Cognitive Sciences</h3>
-            <p>IF: <span class="badge">17.2</span></p>
-            <a href="https://www.cell.com/trends/cognitive-sciences" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Clinical Psychology Review</h3>
-            <p>IF: <span class="badge">12.2</span></p>
-            <a href="https://www.journals.elsevier.com/clinical-psychology-review" class="btn" target="_blank">Apri Sito</a><div class="card">
-            <h3>Psychotherapy and Psychosomatics</h3>
-            <p>IF: <span class="badge">17.4</span></p>
-            <a href="https://www.karger.com/pps" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Computers in Human Behavior</h3>
-            <p>IF: <span class="badge">8.5</span></p>
-            <a href="https://www.journals.elsevier.com/computers-in-human-behavior" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Journal of Applied Psychology</h3>
-            <p>IF: <span class="badge">7.4</span></p>
-            <a href="https://www.apa.org/pubs/journals/apl" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>American Psychologist</h3>
-            <p>IF: <span class="badge">7.2</span></p>
-            <a href="https://www.apa.org/pubs/journals/amp" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>J. of Child Psychology & Psychiatry</h3>
-            <p>IF: <span class="badge">7.0</span></p>
-            <a href="https://acamh.onlinelibrary.wiley.com/journal/14697610" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Psychological Review</h3>
-            <p>IF: <span class="badge">5.8</span></p>
-            <a href="https://www.apa.org/pubs/journals/rev" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Psychological Science</h3>
-            <p>IF: <span class="badge">5.5</span></p>
-            <a href="https://www.psychologicalscience.org/publications/psychological_science" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>J. of Personality & Social Psych.</h3>
-            <p>IF: <span class="badge">5.4</span></p>
-            <a href="https://www.apa.org/pubs/journals/psp" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Child Development</h3>
-            <p>IF: <span class="badge">4.8</span></p>
-            <a href="https://srcd.onlinelibrary.wiley.com/journal/14678624" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        <div class="card">
-            <h3>Frontiers in Psychology</h3>
-            <p>IF: <span class="badge">3.8</span></p>
-            <a href="https://www.frontiersin.org/journals/psychology" class="btn" target="_blank">Apri Sito</a>
-        </div>
-        </div>
-    </div>
-</div>
-
-</body>
-</html>
+        <div class="card"><h3>Annual Review of Psychology</h3><p>IF: <span class="badge">29.4</span></p><a href="https://www.annualreviews.org/journal/psych" class="btn" target="_blank">Apri Sito</a></div>
+        <div class="card"><h3>Nature Reviews Psychology</h3><p>IF: <span class="badge">21.8</span></p><a href="https://www.nature.com/nrpsychol/" class="btn" target="_blank">Apri Sito</a></div>
+        <div class="card"><h3>Psychological Bulletin</h3><p>IF: <span class="badge">19.8</span></p><a href="https://www.apa.org/pubs/journals/bul" class="btn" target="_blank">Apri Sito</a></div>
+        <div class="card"><h3>Trends in Cognitive Sciences</h3><p>IF: <span class="badge">17.2</span></p><a href="https://www.cell.com/trends/cognitive-sciences" class="btn" target="_blank">Apri Sito</a></div>
+        <div class="card"><h3>Psychotherapy and Psychosomatics</h3><p>IF: <span class="badge">17.4</span></p><a href="https://www.karger.com/pps" class="btn" target="_blank">Apri Sito</a></div>
+        
+        <div class="card"><h3>Clinical Psychology Review</h3><p>IF: <span class="badge">12.2</span></p><a href="https://www.journals.elsevier.com/clinical-psychology-review" class="btn" target="_blank">Apri Sito</a></div>
+        <div class="card"><h3>Computers in Human Behavior</h3><p>IF: <span class="badge">8.5</span></p><a href="https://www.journals.elsevier.com/computers-in-human-behavior" class="btn" target="_blank">Apri Sito</a></div>
+        <div class="card"><h3>Journal of Applied Psychology</h3><p>IF: <span class="badge">7.4</span></p><a href="https://www
